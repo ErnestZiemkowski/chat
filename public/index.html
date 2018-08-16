@@ -3,9 +3,23 @@
     <head>
         <meta charset="utf-8">
         <title>Chat</title>
+        <script src="/socket.io/socket.io.js"></script>
         <link href="./styles.css" rel="stylesheet">
     </head>
     <body>
-        <h1>Chat</h1>
+        <div id="mario-chat">
+            <div id="chat-window">
+                <div id="output">
+
+                </div>
+                <div id="feedback">
+                    
+                </div>
+            </div>
+            <input id="handle" type="text" placeholder="Handler"/>
+            <input id="message" type="text" placeholder="Message"/>
+            <button id="send">Send</button>
+        </div>
+        <script src="./chat.js"></script>
     </body>
 </html>
