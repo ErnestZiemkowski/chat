@@ -1,0 +1,24 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "Simple chat app using socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErnestZiemkowski/chat.git"
+  },
+  "keywords": [
+    "nodejs",
+    "socket.io",
+    "chat"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErnestZiemkowski/chat/issues"
+  },
+  "homepage": "https://github.com/ErnestZiemkowski/chat#readme"
+}
