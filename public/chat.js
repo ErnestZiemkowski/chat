@@ -1,4 +1,4 @@
-const socket = io.connect('http://localhost:5000');
+const socket = io.connect('https://cryptic-brook-36573.herokuapp.com/');
 
 const message = document.getElementById('message');
 const handle = document.getElementById('handle');
