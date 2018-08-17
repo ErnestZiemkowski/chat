@@ -1,5 +1,6 @@
 const express = require('express');
 const socket = require('socket.io');
+const path = require('path');
 
 const app = express();
 const port = process.env.port || 5000;
@@ -7,7 +8,8 @@ const server = app.listen(port, () => {
     console.log('llistening on port: ' + port);
 });
 
-app.use(express.static('public'));
+app.set('views', path.join(__dirname, './public'))
+app.use(express.static('./public'));
 
 const io = socket(server);
 
