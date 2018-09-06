@@ -1,10 +1,10 @@
-const socket = io.connect('https://cryptic-brook-36573.herokuapp.com');
-
+const socket = io.connect('http://localhost:5000');
 const message = document.getElementById('message');
 const handle = document.getElementById('handle');
 const btn = document.getElementById('send');
 const output = document.getElementById('output');
 const feedback = document.getElementById('feedback');
+
 
 btn.addEventListener('click', () => {
     socket.emit('chat', {
